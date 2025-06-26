@@ -1,0 +1,2 @@
+User-ul asdf la 2021-06-15 23:17:22.325319 a modificat pretul cu rata de 767%, noul pret devenind: -293.48
+User-ul john la 2021-06-17 19:28:01.090947 a modificat pretul cu rata de 2000%, noul pret devenind: -190000.0
