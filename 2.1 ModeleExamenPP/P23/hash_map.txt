@@ -1,0 +1,4 @@
+file1.csv->Max
+file2.csv->Min
+file3.csv->NrApar
+file4.csv->EliminDup
