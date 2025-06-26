@@ -1,0 +1,6 @@
+Problema 1 :
+sa se implementeze modelul mediator cu un profesor 1 asistent si mai multi studenti 
+sa se deseneze diag de clase si cea de obiecte si sa se explice aplicarea principiilor solid
+
+Problema 2:
+cu un dictionar(citit din fisier sau definit in program sa se implementeze folosind un canvas jocul spanzuratoarea in Piton
