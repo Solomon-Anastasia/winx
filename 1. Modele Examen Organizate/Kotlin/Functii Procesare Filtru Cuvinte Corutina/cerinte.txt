@@ -1,0 +1,32 @@
+Subiect 1 - Python:
+Pornind de la exemplul cu map_reduce din modulul more_itertools
+(Python), să se calculeze indexul invers pentru un set de documente
+text (creat de student). Toate cele 3 funcții (key_func, value_func și
+reduce_func) vor fi scrise ca expresii lambda. Se va citi conținutul
+fiecărui document și apoi se va sparge și reuni într-o singură listă
+de cuvinte.
+Funcția de mapare va returna perechi de forma <word, (document_id,
+1)>, în care cheia este cuvântul, iar valoarea este formată din tupla
+document_id (numele documentului), și 1 (o apariție a cuvântului în
+document).
+Funcția de reducere primește toate perechile, emite o pereche de forma
+<word, [(document_id_i, count_word_in_document_id_i), (...), ...]>,
+unde al doilea element din tuplă reprezintă numărul de apariții ale
+cuvântului în documentul respectiv. Pentru simplitate, funcția de
+reducere poate utiliza funcția reduce_by_key din biblioteca
+PyFunctional, ca să creeze acea listă de tuple. Exemplu de output:
+{'a':          [('text/1.txt', 1), ('text/2.txt', 2)],
+ 'about':   [('text/3.txt', 1)],
+ 'always': [('text/3.txt', 1)],
+ 'are':       [('text/3.txt', 2)],
+ ...}
+
+Subiect 2 - Kotlin:
+Utilizând Kotlin și funcțiile de procesare (din programarea
+funcțională), să se proceseze un fișier text (creat de programator cu
+câteva propoziții în el), filtrând cuvintele care au minim 4 caractere
+și extrăgând două caractere din mijlocul cuvântului, apoi reunind
+rezultatul într-un singur string. Spre exemplu, pentru textul „Acesta
+este examenul la PP” se va returna „esstme”. Se va utiliza combinație
+cu lambda peste colecții pentru procesare iar procesarea se va efectua
+într-o corutină.
