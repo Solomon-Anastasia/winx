@@ -1,0 +1,3 @@
+Ana Popescu, 123, Math, 10, Physics, 9, Biology, 7
+Ion Ionescu, 124, Math, 4, Physics, 3, Chemistry, 2
+Maria Vasilescu, 125, Math, 4, Physics, 5, Chemistry, 3, Lim, 3, lo, 3
